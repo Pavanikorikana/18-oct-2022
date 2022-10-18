@@ -1,0 +1,16 @@
+
+		*{
+			margin: 0%;
+		}
+		.navbar{
+			background-color: black;
+			padding: 1% ;
+			text-align: center;
+		}
+		.navbar a{
+			text-decoration: none;
+			margin: 7%;
+			color: white;
+			font-size: 25px;
+
+		}

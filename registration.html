@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet"  href="navigation.css">
+</head>
+<style type="text/css">
+	body{
+		background-image: ;
+		background-size: 70%;
+		background-repeat: no-repeat;
+	}
+	.registration{
+		background-color: yellow;
+		width: 20%;
+		border: 2px solid black;
+		padding: 3%;
+		margin: 3%;
+		margin-left: 10px;
+		text-align: center;
+		font-size: 10;
+    }
+    .registration input{
+    	padding: 3%;
+    	margin: 2%;
+    }
+    .submit{
+    	background-color: black;
+    	color: white;
+    	padding: 1%;
+    	width: 15%;
+    	font-size: 100%;
+    }
+</style>
+<body>
+	<nav class="navbar">
+		<a href="registration.html">Register</a>
+		<a href="login.html">login</a>
+		<a href="alluarjun.html">Biography</a>
+		<a href="#">Photos</a>
+	</nav>
+
+<center>
+	
+	<form class ="registration" action ="login.html">
+		<h1> REGISTRATION FORM </h1>
+	<p><input placeholder="Enter name" type="text" required/></p><br>
+	<p><input placeholder="Enter password" type="password" required/></p><br>
+	<p><input placeholder="confirm password" type="password" required/> </p><br>
+	<p><input placeholder="Enter email" type="email" required/></p><br>
+	<p><input placeholder="Enter address" type="address" required/></p><br>
+	<p><input placeholder="Enter phone number" type="phone number" required/></p><br>
+	<p><input type="date"></p>
+	
+	<p>
+		<input type="radio" value="male" name="gender" required/>Male
+		<input type="radio" value="female" name="gender" required/>Female
+		</p>
+		<p calss="type">
+			<input value="mpcs" type="checkbox" required />MPCS
+			<input  value="cse" type="checkbox"/>CSE
+			<input value="btech"type="checkbox"/>BTECH
+        </p>
+        <p ><input type="file"/></p>
+        <button class="submit">SignUp</button>
+        <button>Reset</button>
+        
+    </form>
+</center>
+</body>
+</html>
